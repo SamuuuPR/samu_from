@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm 
+           focus:border-primary focus:ring-primary;
+  }
+  
+  .form-select {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm 
+           focus:border-primary focus:ring-primary;
+  }
+  
+  .form-radio {
+    @apply h-4 w-4 text-primary border-gray-300 focus:ring-primary;
+  }
+  
+  .form-checkbox {
+    @apply h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary;
+  }
+}
